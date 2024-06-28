@@ -19,6 +19,8 @@
 		CD6D45CF2C2DF83800C36EE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D45CE2C2DF83800C36EE8 /* ContentView.swift */; };
 		CD6D45D22C2DF88C00C36EE8 /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D45D12C2DF88C00C36EE8 /* JSONMapper.swift */; };
 		CD6D45D52C2DFA2200C36EE8 /* Amiibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D45D42C2DFA2200C36EE8 /* Amiibo.swift */; };
+		CD6D45D72C2E016C00C36EE8 /* AmiiboGridVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D45D62C2E016C00C36EE8 /* AmiiboGridVC.swift */; };
+		CD6D45D92C2E057800C36EE8 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D45D82C2E057800C36EE8 /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		CD6D45CE2C2DF83800C36EE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD6D45D12C2DF88C00C36EE8 /* JSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
 		CD6D45D42C2DFA2200C36EE8 /* Amiibo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amiibo.swift; sourceTree = "<group>"; };
+		CD6D45D62C2E016C00C36EE8 /* AmiiboGridVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboGridVC.swift; sourceTree = "<group>"; };
+		CD6D45D82C2E057800C36EE8 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 		CD6D45BE2C2DEE9000C36EE8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD6D45D62C2E016C00C36EE8 /* AmiiboGridVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				CD6D45D42C2DFA2200C36EE8 /* Amiibo.swift */,
+				CD6D45D82C2E057800C36EE8 /* MockData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,7 +240,9 @@
 				CD6D45C32C2DEFB400C36EE8 /* SettingVC.swift in Sources */,
 				CD6D45C02C2DEEAD00C36EE8 /* BaseVC.swift in Sources */,
 				CD6D45D22C2DF88C00C36EE8 /* JSONMapper.swift in Sources */,
+				CD6D45D72C2E016C00C36EE8 /* AmiiboGridVC.swift in Sources */,
 				CD6D45BD2C2DEE8500C36EE8 /* HomeVC.swift in Sources */,
+				CD6D45D92C2E057800C36EE8 /* MockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
