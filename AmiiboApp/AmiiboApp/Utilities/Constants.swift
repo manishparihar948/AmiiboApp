@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 enum Constants {
     /* Base */
@@ -16,10 +17,18 @@ enum Constants {
         
     static let settingTag = "SettingTag"
     static let settingTitle = "Settings"
+    
+    /* Amiibo */
+    static let amiiboSeries = " Amiibo Series"
 }
 
 enum SFSymbols {
     /* Base */
     static let homeImg = "house"
     static let settingImg = "gear"
+}
+
+enum ColorTheme {
+    static let brandColor = Color("brandColor")
+    static let textColor = Color("textColor")
 }
