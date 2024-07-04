@@ -53,6 +53,7 @@ enum SFSymbols {
     /* Base */
     static let homeImg = "house"
     static let settingImg = "gear"
+    static let starImg = "star"
 }
 
 enum ColorTheme {

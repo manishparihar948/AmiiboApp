@@ -30,6 +30,7 @@
 		CDDBB8532C35550500CE080C /* AmiiboButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDBB8522C35550500CE080C /* AmiiboButtonView.swift */; };
 		CDDBB8552C3556DF00CE080C /* AmiiboDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDBB8542C3556DF00CE080C /* AmiiboDetailViewModel.swift */; };
 		CDDBB8572C35A8D300CE080C /* FavoriteAmiibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDBB8562C35A8D300CE080C /* FavoriteAmiibo.swift */; };
+		CDDBB85A2C36748A00CE080C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDBB8592C36748A00CE080C /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		CDDBB8522C35550500CE080C /* AmiiboButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboButtonView.swift; sourceTree = "<group>"; };
 		CDDBB8542C3556DF00CE080C /* AmiiboDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboDetailViewModel.swift; sourceTree = "<group>"; };
 		CDDBB8562C35A8D300CE080C /* FavoriteAmiibo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAmiibo.swift; sourceTree = "<group>"; };
+		CDDBB8592C36748A00CE080C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		CD6D45AB2C2DED9D00C36EE8 /* AmiiboApp */ = {
 			isa = PBXGroup;
 			children = (
+				CDDBB8582C36746B00CE080C /* API */,
 				CD0F590C2C35425C00DF4206 /* Extensions */,
 				CD6D45D32C2DFA0400C36EE8 /* Models */,
 				CD6D45D02C2DF87D00C36EE8 /* Mapper */,
@@ -212,6 +215,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		CDDBB8582C36746B00CE080C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CDDBB8592C36748A00CE080C /* Endpoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -298,6 +309,7 @@
 				CD0F590E2C35426900DF4206 /* Release.swift in Sources */,
 				CD0F59062C34098F00DF4206 /* AmiiboGroupInfoView.swift in Sources */,
 				CDDBB8572C35A8D300CE080C /* FavoriteAmiibo.swift in Sources */,
+				CDDBB85A2C36748A00CE080C /* Endpoint.swift in Sources */,
 				CD0F59082C3409FF00DF4206 /* AmiiboSingleInfoView.swift in Sources */,
 				CD6D45D22C2DF88C00C36EE8 /* JSONMapper.swift in Sources */,
 				CD6D45D72C2E016C00C36EE8 /* AmiiboGridVC.swift in Sources */,
