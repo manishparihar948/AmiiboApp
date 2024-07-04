@@ -19,10 +19,10 @@ struct BaseVC: View {
             
             SettingVC()
                 .tabItem {
-                    Label(Constants.settingTitle,
-                          systemImage: SFSymbols.settingImg)
+                    Label(Constants.favorites,
+                          systemImage: SFSymbols.starImg)
                 }
-                .tag(Constants.settingTag)
+                .tag(Constants.favoritesTag)
         }
     }
 }
