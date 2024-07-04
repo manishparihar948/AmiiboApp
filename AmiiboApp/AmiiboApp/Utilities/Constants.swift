@@ -55,9 +55,13 @@ enum Constants {
     static let invalidData = "There was an error connecting to the server. Please try again later"
     static let unableToComplete = "Unable to complete your request at this time. Please check you internet connection"
     
+<<<<<<< HEAD
     /* AmiiboErrorView */
     static let somethingWentWrong = "Something Went Wrong"
     static let error = "Error"
+=======
+    
+>>>>>>> origin
 }
 
 enum SFSymbols {
@@ -65,6 +69,7 @@ enum SFSymbols {
     static let homeImg = "house"
     static let settingImg = "gear"
     static let starImg = "star"
+<<<<<<< HEAD
     static let alphabetical = "abc"
     static let figure = "figure.stand"
     static let card = "lanyardcard"
@@ -72,6 +77,8 @@ enum SFSymbols {
     static let grid = "rectangle.grid.3x2"
     static let list = "list.dash"
     static let sort = "arrow.up.arrow.down"
+=======
+>>>>>>> origin
 }
 
 enum ColorTheme {
