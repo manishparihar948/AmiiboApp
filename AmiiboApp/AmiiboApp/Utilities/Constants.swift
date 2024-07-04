@@ -47,12 +47,22 @@ enum Constants {
     /* Extras */
     static let placeholder = "amiiboPlaceholder"
     static let ok = "OK"
+    
+    /* Network Manager */
+    static let serverError = "Server Error"
+    static let invalidURL = "The URL is invalid"
+    static let invalidResponse = "There was an invalid response from the server. Please try again later"
+    static let invalidData = "There was an error connecting to the server. Please try again later"
+    static let unableToComplete = "Unable to complete your request at this time. Please check you internet connection"
+    
+    
 }
 
 enum SFSymbols {
     /* Base */
     static let homeImg = "house"
     static let settingImg = "gear"
+    static let starImg = "star"
 }
 
 enum ColorTheme {
